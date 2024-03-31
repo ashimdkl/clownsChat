@@ -1,0 +1,12 @@
+.background {
+    position: relative; /* Ensures the logo can be positioned relative to this container */
+  }
+  
+  .company-logo {
+    position: absolute; /* Position the logo absolutely within its relative parent */
+    top: 10px; /* Adjust this value to move it down from the top */
+    right: 10px; /* Adjust this value to move it left from the right */
+    width: 100px; /* Adjust based on the desired size */
+    height: auto; /* Keeps the aspect ratio of the image */
+  }
+  
